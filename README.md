@@ -28,5 +28,4 @@ nternet (your IP only) --> NSG (SSH:22) --> Ubuntu VM (nginx:80 local only)
 ## Teardown
 Run `az group delete --name <rg-name>` or delete via portal to avoid charges.
 
----
-*Built step-by-step for cybersecurity portfolio. Author: yourusername*
+
