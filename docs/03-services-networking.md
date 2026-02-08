@@ -47,6 +47,11 @@ curl localhost # Local: ✅ Works
 **Browser test:** http://48.192.9.212 → **Timeout** (blocked externally).  
 ![External Block](photos/verify-isolation.png)
 
+### 5. External Verification
+Browser → http://48.192.9.212 → **"Can't reach this page"** ✓
+![Browser External Block](photos/browser-external-block.png)
+
+
 ## Key Skills Shown
 - **systemd:** Service install/enable/start/status [web:68]
 - **UFW:** Default-deny policy, port rules, `--force enable`
