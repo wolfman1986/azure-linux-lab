@@ -22,3 +22,11 @@ This repo documents a hands-on Azure lab demonstrating basic Linux (Ubuntu 22.04
 - Lab cost: ~$0.02/hour for B1s VM (delete when done).
 
 ## Architecture
+nternet (your IP only) --> NSG (SSH:22) --> Ubuntu VM (nginx:80 local only)
+
+
+## Teardown
+Run `az group delete --name <rg-name>` or delete via portal to avoid charges.
+
+---
+*Built step-by-step for cybersecurity portfolio. Author: yourusername*
