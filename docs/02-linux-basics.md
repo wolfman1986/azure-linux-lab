@@ -1,26 +1,28 @@
-# 02: Linux Basics - Users, Packages, Filesystem
+# 02: Linux Fundamentals - Ubuntu 24.04
 
 ## System Baseline
+![System Info](photos/System%20Baseline.png)
 
+## Package Updates
+sudo apt update && sudo apt upgrade -y
 
+![Apt Update](photos/update-upgrade.png)
 
-## Package Management
-sudo apt update
-sudo apt upgrade -y
+## User & Permissions Management
+**Create labuser + sudo:**
 
-## User & Group Management
 sudo useradd -m -s /bin/bash labuser
 echo "labuser:linuxlab123" | sudo chpasswd
 sudo usermod -aG sudo labuser
-id labuser
 
+![User Management](photos/user-management.png)
 
+**Isolation Demo:**
 
+![Permissions Demo](photos/permissions-demo.png)
 
-## Key Skills Demonstrated
-- Package updates via apt
-- User creation (`-m -s`), password, sudo group
-- `chown`/`chmod` permissions
-- `id`/`getent` verification
-
-
+## Skills Demonstrated
+- System inspection (`lsb_release`, `df`, `free`)
+- Apt lifecycle (update/upgrade)
+- User provisioning, sudo groups
+- Filesystem isolation/permissions
