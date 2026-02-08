@@ -33,5 +33,6 @@ ssh -i .\ssh-azure-linux-lab-v2.pem azureuser@48.192.9.212
 **Cost so far:** ~$0.01. Delete RG when done.
 
 ![Azure Resource Group](photos/rg-azure-linux-lab-overview.png)
+![SSH Connection Proof](photos/ssh-connection-proof.png)
 
 
