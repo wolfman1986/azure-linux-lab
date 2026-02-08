@@ -29,3 +29,4 @@ nternet (your IP only) --> NSG (SSH:22) --> Ubuntu VM (nginx:80 local only)
 Run `az group delete --name <rg-name>` or delete via portal to avoid charges.
 
 
+![Lab Complete](https://img.shields.io/badge/lab-complete-brightgreen)
