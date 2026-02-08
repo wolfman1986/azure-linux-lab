@@ -49,7 +49,7 @@ curl localhost # Local: ✅ Works
 
 ### 5. External Verification
 Browser → http://48.192.9.212 → **"Can't reach this page"** ✓
-![Browser External Block](photos/browser-external-block.png)
+![Browser External Block](photos/test-external-block.png)
 
 
 ## Key Skills Shown
